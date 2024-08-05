@@ -1,0 +1,414 @@
+{
+  "interactionModel": {
+    "dialog": {
+      "intents": [
+        {
+          "slots": [
+            {
+              "name": "nomeTime",
+              "elicitationRequired": true,
+              "type": "timesFutebol",
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1257689918002.1559433675549"
+              }
+            }
+          ],
+          "name": "CuriosidadesIntent",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.587101636619"
+          }
+        },
+        {
+          "slots": [
+            {
+              "name": "nomeTime",
+              "elicitationRequired": true,
+              "type": "timesFutebol",
+              "confirmationRequired": true,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1149490528361.1080538476181",
+                "confirmation": "Confirm.Slot.499010486028.1353719300342"
+              }
+            }
+          ],
+          "name": "HinoIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "olá",
+            "como vai você",
+            "diga oi mundo",
+            "diga oi",
+            "oi",
+            "diga olá mundo",
+            "diga olá"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "nomeTime",
+              "type": "timesFutebol",
+              "samples": [
+                "do time do {nomeTime}",
+                "{nomeTime}",
+                "quero saber do {nomeTime}"
+              ]
+            }
+          ],
+          "name": "CuriosidadesIntent",
+          "samples": [
+            "me fale curiosidades do meu time",
+            "me fale curiosidades",
+            "me mostre curiosidades",
+            "ouvir curiosidades",
+            "quero ouvir curiosidades do meu time",
+            "curiosidades"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "nomeTime",
+              "type": "timesFutebol",
+              "samples": [
+                "hino do {nomeTime}",
+                "do {nomeTime}",
+                "ouvir hino do {nomeTime}",
+                "{nomeTime}"
+              ]
+            }
+          ],
+          "name": "HinoIntent",
+          "samples": [
+            "hino",
+            "ouvir hino de futebol do meu time",
+            "ouvir hino do meu time",
+            "ouvir hino"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "nense",
+                  "flu"
+                ],
+                "value": "fluminense"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "locomotiva rubro negra",
+                  "clube do povo"
+                ],
+                "value": "atlético goianaense"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "tricolor gaúcho",
+                  "imortal tricolor"
+                ],
+                "value": "grêmio"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "leão da barra",
+                  "vitória da bahia"
+                ],
+                "value": "vitória"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "dourado"
+                ],
+                "value": "cuiabá"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "tricolor carvoeiro",
+                  "tigrões",
+                  "tigre"
+                ],
+                "value": "criciúma"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ju",
+                  "papada"
+                ],
+                "value": "juventude"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "sport club internacional",
+                  "inter",
+                  "colorado"
+                ],
+                "value": "internacional"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "vasco da gama",
+                  "gigante da colina",
+                  "time da virada"
+                ],
+                "value": "vasco"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "galo"
+                ],
+                "value": "atlético mineiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "red bull bragantino",
+                  "massa bruta",
+                  "red bull"
+                ],
+                "value": "bragantino"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "furacão"
+                ],
+                "value": "atlético paranaense"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "leão tricolor de aço"
+                ],
+                "value": "fortaleza"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "raposa"
+                ],
+                "value": "cruzeiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "tricolor bahiano",
+                  "esquadrão de aço",
+                  "Esporte Clude de bahia"
+                ],
+                "value": "bahia"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "fla",
+                  "mengão"
+                ],
+                "value": "flamengo"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "fogo"
+                ],
+                "value": "botafogo"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "coringão",
+                  "gavião da fiel",
+                  "gavião",
+                  "gambá",
+                  "timão"
+                ],
+                "value": "corinthians"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "bambi",
+                  "morumbis",
+                  "tricolor paulista",
+                  "São Paulo Futebol Clube",
+                  "tricolor"
+                ],
+                "value": "são Paulo"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "peixe"
+                ],
+                "value": "santos"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "verdão",
+                  "paumeiras",
+                  "porco",
+                  "mancha verde",
+                  "palestra"
+                ],
+                "value": "palmeiras"
+              }
+            }
+          ],
+          "name": "timesFutebol"
+        }
+      ],
+      "invocationName": "paixões futebol"
+    },
+    "prompts": [
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "E aí, me diga o nome do time que quer saber uma curiosidade..."
+          },
+          {
+            "type": "PlainText",
+            "value": "Vamos lá, me diga o nome do seu time, te direi uma curiosidade..."
+          },
+          {
+            "type": "PlainText",
+            "value": "Que time quer saber?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Que time da série A de fotebol brasileiro quer saber?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual time da série A você quer?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual time de futebol você quer saber?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual time do campeonato brasileiro você quer saber uma curiosidade?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual time do campeonato brasileiro da série A você quer saber?"
+          }
+        ],
+        "id": "Elicit.Slot.1257689918002.1559433675549"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Me diga o time de futebol que você quer ouvir"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual dos vinte times da série A você quer ouvir?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual dos vinte times você quer ouvir o hino?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Qual time de futebol você quer ouvir o hino?"
+          }
+        ],
+        "id": "Elicit.Slot.1149490528361.1080538476181"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Vamos confirmar, o nome do time é {nomeTime} "
+          },
+          {
+            "type": "PlainText",
+            "value": "Ouvi dizer {nomeTime} , está correto?"
+          }
+        ],
+        "id": "Confirm.Slot.499010486028.1353719300342"
+      },
+      {
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "o seu é {nomeTime} podemos continuar?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Você disse {nomeTime} , é isso mesmo?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Ouvi dizer {nomeTime} , está correto?"
+          }
+        ],
+        "id": "Confirm.Intent.587101636619"
+      }
+    ]
+  }
+}
