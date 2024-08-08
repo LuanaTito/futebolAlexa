@@ -28,7 +28,7 @@ const ATLÉTICO_GOIANAENSE = 'Atlético Clube Goianiense, notável como Atlétic
 const FLUMINENSE = 'Fluminense Football Club é um clube multidesportivo brasileiro sediado no bairro de Laranjeiras, localizado na Zona Sul da cidade do Rio de Janeiro, capital do estado homônimo. Fundado em 21 de julho de 1902, tem como principal atividade o futebol, mandando suas partidas no Maracanã. Disputa o Campeonato Carioca, a principal liga estadual do Rio de Janeiro, bem como o Campeonato Brasileiro, principal liga do Brasil.'
 
 const HINO_PALMEIRAS = '<audio src="https://escolatito.com.br/hino-palmeiras.mp3" />'
-const HINO_SAO_PAULO = '<audio src="https://escolatito.com.br/hino-sao-paulo-fc2.mp3" />'
+const HINO_SAO_PAULO = '<audio src="https://escolatito.com.br/hino-sao-paulo-fc3.mp3" />'
 const HINO_CORINTHIANS = '<audio src="https://escolatito.com.br/hino-corinthians.mp3" />'
 const HINO_BOTAFOGO = '<audio src="https://escolatito.com.br/hino-do-botafogo.mp3" />'
 const HINO_FLAMENGO = '<audio src="https://escolatito.com.br/hino-clube-de-regatas-flamengo-rj.mp3" />'
