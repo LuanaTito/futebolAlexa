@@ -77,7 +77,7 @@ const CuriosidadesIntentHandler = {
            speakOutput = 'Aqui vai a sua curiosidade' + SAO_PAULO
        } else if (slotValue === 'corinthians') {
            speakOutput = 'Aqui vai a sua curiosidade' + CORINTHIANS
-       } else if (slotValue === 'notafogo') {
+       } else if (slotValue === 'botafogo') {
            speakOutput = 'Aqui vai a sua curiosidade' + BOTAFOGO
        } else if (slotValue === 'flamengo') {
            speakOutput = 'Aqui vai a sua curiosidade' + FLAMENGO
